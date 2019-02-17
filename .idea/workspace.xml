@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e35627-c7b1-4c0c-beca-cb56328e83bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ModalExample.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modalExample.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ModalTest.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +17,7 @@
     <session id="-1915173392">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="2" />
@@ -33,6 +30,7 @@
           <entry key="js" value="5" />
           <entry key="json" value="2" />
           <entry key="jsx" value="6" />
+          <entry key="md" value="1" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
@@ -43,6 +41,7 @@
           <entry key="JSON" value="2" />
           <entry key="JSX Harmony" value="6" />
           <entry key="JavaScript" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
@@ -73,15 +72,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ModalExample.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="252">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="n#!!block;n#constructor#0;n#App#0" />
                 <element signature="e#287#375#0" />
+                <element signature="e#401#521#0" />
                 <element signature="e#548#744#0" />
                 <element signature="e#765#867#0" />
                 <element signature="e#891#918#0" />
@@ -92,6 +92,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -145,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/pages/ModalTest.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/ModalExample.jsx" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -232,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550140730478</updated>
       <workItem from="1550140731706" duration="13012000" />
-      <workItem from="1550229196718" duration="15128000" />
+      <workItem from="1550229196718" duration="15340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28140000" />
+    <option name="totallyTimeSpent" value="28352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -382,12 +388,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ModalExample.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="252">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="n#!!block;n#constructor#0;n#App#0" />
             <element signature="e#287#375#0" />
+            <element signature="e#401#521#0" />
             <element signature="e#548#744#0" />
             <element signature="e#765#867#0" />
             <element signature="e#891#918#0" />
@@ -398,6 +405,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
