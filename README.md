@@ -6,8 +6,8 @@
 
 #### Todo
 
-1. 集成React-Router ✌️
-2. 试试TypeScript？😁
+1. 集成React-Router （2.18 finish）
+2. 试试TypeScript？
 
 ### 组件篇
 
