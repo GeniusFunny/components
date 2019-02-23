@@ -1,6 +1,7 @@
 import React from 'react'
-import ModalTest from './pages/ModalTest'
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
+import ModalExample from './components/Modal/ModalExample'
+import SwiperExample from './components/Swiper/SwiperExample'
 import './App.scss'
 const App = () => (
   <Router>
@@ -32,8 +33,12 @@ const Components = ({match}) => (
       <li>
         <Link to={`${match.url}/modal`}>Modal</Link>
       </li>
+      <li>
+        <Link to={`${match.url}/swiper`}>Swiper</Link>
+      </li>
     </ul>
-    <Route path={`${match.url}/modal`} component={ModalTest}/>
+    <Route path={`${match.url}/modal`} component={ModalExample}/>
+    <Route path={`${match.url}/swiper`} component={SwiperExample}/>
   </section>
 )
 const Home = () => (

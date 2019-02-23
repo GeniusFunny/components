@@ -1,0 +1,61 @@
+.swiper {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 350px;
+  width: 500px;
+  overflow: hidden;
+  &-content {
+    position: absolute;
+    display: flex;
+    width: 9999px;
+    transition: all 0.4s;
+    &-item {
+      width: 500px;
+      height: 350px;
+      position: relative;
+      img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
+      &-title {
+        position: relative;
+        box-sizing: border-box;
+        bottom: 40px;
+        width: 100%;
+        line-height: 2;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0px 15px;
+        font-size: 18px;
+        text-align: right;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+  &-left {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 0;
+    border: 10px solid;
+    border-color: transparent #000 transparent transparent;
+  }
+  &-right {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    width: 0;
+    border: 10px solid;
+    border-color: transparent transparent transparent #000;
+  }
+  &-dots {
+    .dot {}
+  }
+}
