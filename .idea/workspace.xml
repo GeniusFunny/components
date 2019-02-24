@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e35627-c7b1-4c0c-beca-cb56328e83bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yanghang.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/Swiper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Swiper/swiperExample.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ModalTest.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Swiper/Swiper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Swiper/Swiper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Swiper/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Swiper/swiper.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,24 +76,26 @@
     <session id="-1417120052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="3" />
-          <entry key="TypeScriptServerServiceImpl" value="4" />
+          <entry key="ESLintLanguageService" value="5" />
+          <entry key="TypeScriptServerServiceImpl" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="json" value="1" />
           <entry key="jsx" value="4" />
           <entry key="md" value="1" />
@@ -111,7 +110,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JSX Harmony" value="4" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="3" />
           <entry key="TypeScript" value="3" />
@@ -122,10 +121,10 @@
         <counts>
           <entry key="css" value="7" />
           <entry key="html" value="58" />
-          <entry key="js" value="1035" />
-          <entry key="jsx" value="3272" />
+          <entry key="js" value="1612" />
+          <entry key="jsx" value="5331" />
           <entry key="md" value="37" />
-          <entry key="scss" value="1448" />
+          <entry key="scss" value="1624" />
           <entry key="ts" value="15" />
           <entry key="tsx" value="10" />
         </counts>
@@ -134,10 +133,10 @@
         <counts>
           <entry key="CSS" value="7" />
           <entry key="HTML" value="58" />
-          <entry key="JSX Harmony" value="3272" />
-          <entry key="JavaScript" value="1035" />
+          <entry key="JSX Harmony" value="5331" />
+          <entry key="JavaScript" value="1612" />
           <entry key="PLAIN_TEXT" value="37" />
-          <entry key="SCSS" value="1448" />
+          <entry key="SCSS" value="1624" />
           <entry key="TypeScript" value="15" />
           <entry key="TypeScript JSX" value="10" />
         </counts>
@@ -146,14 +145,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Swiper/Swiper.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-249">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="364">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#819#829#0" />
+                <element signature="e#364#635#0" />
+                <element signature="e#825#879#0" />
+                <element signature="e#1919#1977#0" />
+                <element signature="e#2001#2032#0" />
+                <element signature="e#2052#2081#0" />
+                <element signature="e#2105#2136#0" />
+                <element signature="e#2163#2217#0" />
+                <element signature="e#2243#2301#0" />
+                <element signature="e#2576#3650#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#96#106#0" />
               </folding>
             </state>
           </provider>
@@ -162,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Swiper/swiper.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="1288">
+              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -171,21 +190,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="438">
               <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#266#571#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -193,12 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#112#1758#0" />
-              </folding>
+            <state relative-caret-position="410">
+              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -244,11 +249,12 @@
         <option value="$PROJECT_DIR$/src/components/Modal/TypeScript/Modal.tsx" />
         <option value="$PROJECT_DIR$/src/components/Modal/TypeScript/ModalExample.tsx" />
         <option value="$PROJECT_DIR$/src/pages/SwiperTest.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Swiper/Swiper.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Swiper/swiper.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/utils/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Swiper/swiper.scss" />
+        <option value="$PROJECT_DIR$/src/components/Swiper/Swiper.jsx" />
       </list>
     </option>
   </component>
@@ -278,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,7 +312,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,18 +358,20 @@
       <workItem from="1550488268817" duration="4420000" />
       <workItem from="1550499449072" duration="561000" />
       <workItem from="1550580902337" duration="683000" />
-      <workItem from="1550907159755" duration="8960000" />
+      <workItem from="1550907159755" duration="9858000" />
+      <workItem from="1550984596511" duration="4287000" />
+      <workItem from="1550998062358" duration="2814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42976000" />
+    <option name="totallyTimeSpent" value="50975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -377,7 +385,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -437,13 +445,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Modal/TypeScript/ModalExample.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -456,9 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,16 +471,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Swiper/swiperExample.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SwiperTest.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/SwiperTest.jsx" />
     <entry file="file://$PROJECT_DIR$/src/components/Modal/modalExample.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -496,60 +486,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ModalTest.jsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/ModalTest.jsx" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="28">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Swiper/SwiperExample.jsx">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Swiper/swiper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#112#1758#0" />
+            <element signature="e#96#106#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Swiper/Swiper.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="364">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#819#829#0" />
+            <element signature="e#364#635#0" />
+            <element signature="e#825#879#0" />
+            <element signature="e#1919#1977#0" />
+            <element signature="e#2001#2032#0" />
+            <element signature="e#2052#2081#0" />
+            <element signature="e#2105#2136#0" />
+            <element signature="e#2163#2217#0" />
+            <element signature="e#2243#2301#0" />
+            <element signature="e#2576#3650#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Swiper/swiper.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#266#571#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
         </state>
       </provider>
     </entry>

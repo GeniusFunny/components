@@ -9,7 +9,8 @@
     position: absolute;
     display: flex;
     width: 9999px;
-    transition: all 0.4s;
+    //transition: transform 0.6s;
+    transform: translateX(-500px);
     &-item {
       width: 500px;
       height: 350px;
@@ -42,8 +43,7 @@
     top: 45%;
     transform: translateY(-50%);
     width: 0;
-    border: 10px solid;
-    border-color: transparent #000 transparent transparent;
+    border: 10px solid transparent;
   }
   &-right {
     cursor: pointer;
@@ -52,10 +52,16 @@
     left: 100%;
     transform: translate(-100%, -50%);
     width: 0;
-    border: 10px solid;
-    border-color: transparent transparent transparent #000;
+    border: 10px solid transparent;
+    transition: border-color 0.5s;
   }
   &-dots {
     .dot {}
   }
+}
+.focus-right {
+  border-color: transparent transparent transparent #ccc;
+}
+.focus-left {
+  border-color: transparent #ccc transparent transparent;
 }

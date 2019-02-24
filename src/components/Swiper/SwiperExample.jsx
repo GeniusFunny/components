@@ -46,5 +46,5 @@ export default function SwiperExample() {
       index: 5
     }
   ]
-  return <Swiper currentIndex={0} data={data}/>
+  return <Swiper currentIndex={0} data={data} auto={false} autoPlayTime={3000}/>
 }
