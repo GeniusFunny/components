@@ -6,14 +6,14 @@
 
 #### Todo
 
-1. 集成React-Router （2.18 finish）
-2. 试试TypeScript？
+1. 集成React-Router （2.18 ✅）
+2. 试试TypeScript？（2.19 ✅）
 
 ### 组件篇
 
 #### 2.17 Modal
 
-Modal组件，见Modal.jsx、Modal.scss；测试组件：ModalExample。
+Modal组件，见Modal.jsx、Modal.scss；测试组件：ModalExample.jsx
 
 **注意**：
 
@@ -24,3 +24,17 @@ Modal组件，见Modal.jsx、Modal.scss；测试组件：ModalExample。
 
 1. 完善测试组件的PropTypes及使用依赖注入减少耦合。😯
 2. 引入过渡动画哈。🍺
+
+#### 2.24 Swiper
+
+Swiper组件，见Swiper.jsx、swiper.scss；测试组件：SwiperExample.jsx
+
+**注意**：
+
+1. 自动播放那块用的setInterval，存在性能问题
+2. 目前bug较多，持续更新中
+
+**Todo**：
+
+1. 自动播放那里使用requestAnimationFrame进行优化 😖
+2. 解决存在的bug 😖

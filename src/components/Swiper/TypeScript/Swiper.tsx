@@ -1,39 +1,59 @@
-import React, {Component} from 'react'
-import './swiper.scss'
-import {debounce} from '../../utils/index'
-function ContentItem(props) {
+import React, { Component } from 'react'
+import '../swiper.scss'
+import { throttle, debounce } from '../../../utils'
+function ContentItem(props: contentItem) {
   return (
     <div className={'swiper-content-item'}>
-      <img src={props.url} alt={props.alt} className={''}/>
+      <img src={props.url} alt={props.alt}/>
       <div className={'swiper-content-item-title'}>{props.title}</div>
     </div>
   )
 }
-export default class Swiper extends Component {
-  constructor(props) {
+type contentItem = {
+  url: string,
+  key: number | string,
+  index?: number,
+  alt: string,
+  title: string
+}
+export interface Props {
+  readonly currentIndex: number,
+  readonly data: contentItem[],
+  readonly auto: boolean,
+  readonly autoPlayTime: number
+}
+export interface State {
+  data: contentItem[],
+  currentIndex: number,
+  isFocused: boolean
+}
+export default class Swiper extends Component<Props, State> {
+  private readonly auto: boolean
+  private readonly autoPlayTime: number
+  private readonly ref: React.RefObject<any>
+  private timer: any
+  private readonly handleRightClick: any
+  private readonly handleLeftClick: any
+  // handleRightClick(direction: string):void
+  constructor(props: Props) {
     super(props)
+    this.auto = props.auto
+    this.autoPlayTime = props.autoPlayTime
+    this.ref = React.createRef()
+    this.timer = null
     this.state = {
       data: props.data,
       currentIndex: props.currentIndex,
       isFocused: false
     }
-    this.auto = props.auto
-    this.autoPlayTime = props.autoPlayTime || 4000
-    this.ref = React.createRef()
-    this.timer = null
     this.handleLeftClick = this.changeIndex.bind(this, 'left')
     this.handleRightClick = this.changeIndex.bind(this, 'right')
   }
-  componentDidMount() {
-    if (this.auto) {
-      this.autoPlay()
-    }
-  }
-  changeIndex = (direction) => {
-    const {currentIndex, data} = this.state
+  changeIndex = (direction: string) => {
+    const { currentIndex, data } = this.state
     let node = this.ref.current,
       len = data.length - 1,
-      nextIndex
+      nextIndex: number = -1
     if (direction === 'right') {
       if (currentIndex <= len) {
         nextIndex = currentIndex + 1
@@ -44,7 +64,7 @@ export default class Swiper extends Component {
           node.addEventListener('transitionend', () => {
             node.style.transition = ''
             node.style.transform = `translateX(-500px)`
-          }, {once: true})
+          }, { once: true })
         }
       }
     } else {
@@ -59,13 +79,13 @@ export default class Swiper extends Component {
           node.addEventListener('transitionend', () => {
             node.style.transition = ''
             node.style.transform = `translateX(-${(len + 1) * 500}px)`
-          }, {once: true})
+          }, { once: true })
         }
       }
     }
     this.updateIndex(nextIndex)
   }
-  updateIndex = (index) => {
+  updateIndex = (index: number) => {
     this.setState({
       currentIndex: index
     })
@@ -96,27 +116,27 @@ export default class Swiper extends Component {
     })
   }
   render() {
-    const {data, isFocused}  = this.state
+    const { data, isFocused } = this.state
     const lastItem = data[data.length - 1]
     const firstItem = data[0]
     return (
       <div className={'swiper'} onMouseEnter={debounce(this.handleMouseEnter, 100)} onMouseLeave={debounce(this.handleMouseLeave, 100)}>
         <div className={'swiper-content'} ref={this.ref}>
           {
-            <ContentItem url={lastItem.url} key={'last'} title={lastItem.title} alt={lastItem.alt}/>
+            <ContentItem url={lastItem.url} key={'last'} title={lastItem.title} alt={lastItem.alt} />
           }
           {
-            data.map(item => <ContentItem url={item.url} key={item.key} title={item.title} alt={item.alt}/>)
+            data.map(item => <ContentItem url={item.url} key={item.key} title={item.title} alt={item.alt} />)
           }
           {
-            <ContentItem url={firstItem.url} key={'first'} title={firstItem.title} alt={firstItem.alt}/>
+            <ContentItem url={firstItem.url} key={'first'} title={firstItem.title} alt={firstItem.alt} />
           }
         </div>
         <div className={'swiper-dots'}>
-          <div className={'dot'}/>
+          <div className={'dot'} />
         </div>
         <div className={'swiper-left triangle' + (isFocused ? ' focus-left' : '')} onClick={this.handleLeftClick} />
-        <div className={'swiper-right triangle' + (isFocused ? ' focus-right' : '')} onClick={this.handleRightClick}/>
+        <div className={'swiper-right triangle' + (isFocused ? ' focus-right' : '')} onClick={this.handleRightClick} />
       </div>
     )
   }
